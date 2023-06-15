@@ -3,7 +3,7 @@ import unittest
 from ArithmeticSum import ArithmeticSum
 
 
-class ArithmeticSumTestCase(unittest.TestCase):
+class ArithmeticSumTest(unittest.TestCase):
     def test_arithmeticSumOfOne(self):
         self.assertEqual(1, ArithmeticSum(1).sumValue)
 
